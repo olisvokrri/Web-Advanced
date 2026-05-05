@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lesson 5</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Personal Information: </legend>
+            <label for="firstname">First Name:</label><br>
+            <input type="text" id="firstname" name="firstname" value="Olis" readonly><br>
+            <label for="lastname">Last Name:</label><br>
+            <input type="text" id="lastname" name="lastname" disabled><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" required><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" size="40" placeholder="Password"><br><br>
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="female">
+            <label for="female">Female</label><br><br>
+            <label>Hobbies:</label><br>
+            <input type="checkbox" id="reading" name="reading">
+            <label for="reading">Reading</label><br>
+            <input type="checkbox" id="skiing" name="skiing">
+            <label for="skiing">Skiing</label><br>
+            <input type="checkbox" id="drawing" name="drawing">
+            <label for="drawing">Drawing</label><br><br>
+            <label for="pet">Choose a pet:</label>
+            <select id="pet" name="pet">
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+                <option value="Parrot">Parrot</option>
+            </select><br><br>
+
+            <textarea name="message" rows="10" cols="20" maxlength="50"></textarea><br><br>
+
+
+            <input type="submit" id="submit" name="submit">
+            </fieldset>
+        </form>
+    </body>
+</html>
