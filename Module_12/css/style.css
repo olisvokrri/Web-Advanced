@@ -1,0 +1,65 @@
+/* Descendant Combinator*/
+article p {
+    background-color: darkred;
+    color: white;
+    padding: 20px;
+}
+
+
+article > p {
+    background-color: darkblue;
+}
+
+article ~ p {
+    background-color: darkcyan;
+    color: white;
+    padding: 20px;
+}
+
+article + p {
+    background-color: orange;
+}
+
+/*input:in-range {
+    border: 3px solid green;
+}*/
+
+input:out-of-range {
+    border: 3px solid red;
+}
+
+input:required {
+    background-color: coral;
+}
+
+input:focus {
+    background: yellow;
+}
+
+span:first-of-type {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+input:valid {
+    border: 2px solid darkred;
+}
+
+input:valid {
+    border: 2px solid darkgreen;
+}
+
+#paragraph::first-line {
+    color: blue;
+    font-size: 40px;
+}
+
+h1::before {
+    content: url("../wfhtdh.png")
+}
+
+#paragraph::selection {
+    color: white;
+    background-color: blue;
+}
