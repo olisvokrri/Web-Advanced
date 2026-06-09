@@ -1,0 +1,65 @@
+:root {
+    --primary-color: #06206a;
+    --secondary-color: #fff;
+    --padding: 20px;
+}
+
+h1 {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: var(--padding);
+}
+
+p {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: var(--padding);
+}
+
+#example-one {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #B4DD1E;
+}
+
+#example-two {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 3px solid #B4DD1E;
+}
+
+#example-three {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    background: url("../bgLines.png");
+}
+
+#example-four {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px/30px; /* horizontalradius / vertical radius */
+    background-color: #B4DD1E;
+}
+
+#example-five {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px 6px 5px;
+    background-color: #B4DD1E;
+}
+
+#example-six {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 30px/10px;
+    background-color: #B4DD1E;
+}
