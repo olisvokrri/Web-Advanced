@@ -30,6 +30,43 @@ var text = "Digitral School is in top 10best school of the world!"
 var regex = /[0-9]/g;
 document.getElementById("result8").innerHTML = text.match(regex);
 
-var text = "My school is the best schoolin the world!";
+var text = "My school is the best school in the world!";
 var regex = /(top|best|school)/g;
 document.getElementById("result9").innerHTML = text.match(regex);
+
+var text = "100 percent";
+var regex = /\d/g;
+//digits
+document.getElementById("result10").innerHTML = text.match(regex);
+
+var text = "My school is the best school in the world!";
+var regex = /\s/g;
+document.getElementById("result11").innerHTML = text.match(regex);
+
+var text = "Heeey, how are you?";
+var regex = /e+/g;
+document.getElementById("result12").innerHTML = text.match(regex);
+
+var text = "So, I hope we'll see each other again soon..."
+var regex = /so*/g;
+document.getElementById("result13").innerHTML = text.match(regex);
+
+var text = "hey, hi, hiii!!!";
+var regex = /hi?/g;
+document.getElementById("result14").innerHTML = text.match(regex);
+
+var text = "hello, heloo, helooo!!!";
+var regex = /o{3}/g;
+document.getElementById("result15").innerHTML = text.match(regex);
+
+var text = "hello, helloo, hellooo, helloooo, helloooooooooooo!!!";
+var regex = /o{3,5}/g;
+document.getElementById("result16").innerHTML = text.match(regex);
+
+var text = "bestfriend boyfriend girl";
+var regex = /irl$/g;
+document.getElementById("result17").innerHTML = text.match(regex);
+
+var text = "cat,catalog,category";
+var regex = /^cat/g;
+document.getElementById("result18").innerHTML = text.match(regex);
